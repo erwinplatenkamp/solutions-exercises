@@ -1,32 +1,24 @@
-// Verander deze input om te zien of je code werkt.
-// Comment bijvoorbeeld regel 8 tot 11 weer aan, en regel 3 tot 5 uit.
-const age = 18;
-const isFemale = true;
-const driverStatus = "bob";
 
-/*
-Testdata
-const age = 16; 
-const isFemale = false;
-const driverStatus = 808; 
-*/
+let age = 18;
+let isFemale = true;
+let driverStatus = "bob";
 
 if (age >= 18) {
-  console.log("Je mag naar binnen");
+  console.log("Welkom!");
 } else {
-  console.log("Nope, je mag niet naar binnen");
+  console.log("Kleuters mogen niet naar binnen");
 }
 
 if (isFemale) {
-  console.log("Je ticket zegt dat je een vrouw bent!");
+  console.log("Je bent een chicky");
 } else {
   console.log(
-    "Helaas je hebt aangegeven op je ticket dat je een man bent, je mag niet naar binnen"
+    "Je bent een dude. Je mag niet naar binnen"
   );
 }
 
 if (driverStatus === "bob") {
-  console.log("Je bent de bob, je mag autorijden");
+  console.log("100% bob. Je hebt geen druppel op");
 } else {
-  console.log("Je bent geen bob, hier met die autosleutels");
+  console.log("Je bent geen bob, ik bel een taxi voor je");
 }
